@@ -1,6 +1,9 @@
-# Завдання 1
+# Завдання 2
 
-def avg(*args):
-    print(sum(args) / len(args))
+def strings(*args):
+    print(max(args, key=len))
 
-avg(2,4)
+
+
+strings("sd", "sdsd","s","sdsdsdsdsdsd")
+
