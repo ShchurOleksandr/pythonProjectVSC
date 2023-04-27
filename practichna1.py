@@ -1,6 +1,7 @@
 # Завдання 1
 
-def avg(*args):
-    print(sum(args) / len(args))
+def strings(*args):
+    print(' '.join(args))
 
-avg(2,4)
+
+strings("sdsdsdsd", "sdsdsdsd", "sdsdsdsdsdsdsdsd")
