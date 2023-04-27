@@ -29,3 +29,18 @@ def black_hole_full(*args, **kwargs):
 
 black_hole_full(123, name="Nick", planet='Earth', galaxy='Milky Way', age=1212121212*1.1)
 
+
+dict_1 = {"t": 33, "v": 75}
+
+def way(v,t):
+    way = v*t
+    print(way)
+
+way(**dict_1)
+
+
+lst = [2, 3, 45]
+def some_func(var_1, var_2, var_3):
+    print(var_1, var_2, var_3)
+
+some_func(*lst)
